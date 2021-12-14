@@ -36,7 +36,7 @@
 .gpt3__navbar-links_container p,
 .gpt3__navbar-sign p,
 .gpt3__navbar-menu_container p {
-    color: #fff;
+    color: #296a88;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -49,9 +49,12 @@
 
 .gpt3__navbar-sign button,
 .gpt3__navbar-menu_container button {
-    padding: 0.5rem 1rem;
+    padding: 0.5rem;
+    margin-bottom: 0.8px;
     color: #fff;
     background: #FF4820;
+    box-shadow: inset 0 0 0 #FF4820;
+    transition: ease-out 0.25s;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -59,7 +62,17 @@
     border: none;
     outline: none;
     cursor: pointer;
-    border-radius: 5px;
+    border-radius: 6px;
+    text-align: center;
+
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+}
+
+/* add hover over opacity */
+
+.btn:hover {
+    box-shadow: inset 300px 0 0 0 #e6674af3;
+    color: #2B6D8B;
 }
 
 .gpt3__navbar-menu {

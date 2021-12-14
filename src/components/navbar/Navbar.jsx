@@ -1,6 +1,5 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
-// import logo from '../../logo.svg';
 import './navbar.css';
 
 const Navbar = () => {
@@ -9,20 +8,15 @@ const Navbar = () => {
   return (
     <div className="gpt3__navbar">
       <div className="gpt3__navbar-links">
-        <div className="gpt3__navbar-links_logo">
-          {/* <img src={logo} /> */}
-        </div>
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
-          {/* <p><a href="#wgpt3">Who am I?</a></p> */}
-          <p><a href="#possibility">Skills</a></p>
-          <p><a href="#features">Projects</a></p>
+          <p><a href="#skills">Skills</a></p>
+            <p><a href="#Projects">Projects</a></p>
           <p><a href="#blog">Blogs</a></p>
         </div>
       </div>
       <div className="gpt3__navbar-sign">
-        {/* <p>Sign in</p> */}
-        <button type="button">Resume</button>
+        <a href="https://drive.google.com/file/d/1klOh517L-hnPQTBHmRRdEyD7Erlr5htw/preview" target="_blank"><button className="btn" type="button">Resume</button></a>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu
@@ -32,14 +26,12 @@ const Navbar = () => {
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
-            {/* <p><a href="#wgpt3">Who am I?</a></p> */}
-            <p><a href="#possibility">Skills</a></p>
-            <p><a href="#features">Projects</a></p>
+            <p><a href="#skills">Skills</a></p>
+            <p><a href="#Projects">Projects</a></p>
             <p><a href="#blog">Blogs</a></p>
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
-            {/* <p>Sign in</p> */}
-            <button type="button">Resume</button>
+            <a href="https://drive.google.com/file/d/1klOh517L-hnPQTBHmRRdEyD7Erlr5htw/preview" target="_blank"><button type="button">Resume</button></a>
           </div>
         </div>
         )}

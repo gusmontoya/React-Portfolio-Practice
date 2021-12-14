@@ -1,13 +1,13 @@
 import React from 'react';
 
-import logo from '../../assets/geometric.gif';
+import logo from '../../assets/geometric_sphere_slowed.gif';
 import './header.css';
 
 const Header = () => (
   <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
       <h1 className="gradient__text">Let me build you something amazing</h1>
-      <p>Yet bed any for travelling assistance indulgence unpleasing. Not thoughts all exercise blessing. Indulgence way everything joy alteration boisterous the attachment. Party we years to order allow asked of.</p>
+      <p>Welcome to my portfolio.I hope I gain your interest or your buisness.</p>
 
       <div className="gpt3__header-content__input">
         <input type="email" placeholder="Your Email Address" />

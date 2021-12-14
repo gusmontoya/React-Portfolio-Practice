@@ -1,6 +1,7 @@
 import React from 'react';
 import Article from '../../components/article/Article';
 import { blog01, blog02, blog03, blog04, blog05 } from './imports';
+import Mentor from '../../components/mentor/Mentor';
 import './blog.css';
 
 const Blog = () => (
@@ -8,6 +9,7 @@ const Blog = () => (
     <div className="gpt3__blog-heading">
       <h1 className="gradient__text">Figuring it out can be daunting, <br /> these are resources I've used to stay ontrack.</h1>
     </div>
+    <Mentor />
     <div className="gpt3__blog-container">
       <div className="gpt3__blog-container_groupA">
         <a href="https://learntocodewith.me/podcast/from-frying-chicken-to-working-at-google-danny-thompson/"><Article imgUrl={blog01} date="June 08, 2021" text="From frying chicken to working at Google with Danny Thompson!" /></a>

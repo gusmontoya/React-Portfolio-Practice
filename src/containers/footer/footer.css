@@ -32,6 +32,12 @@
 
     margin-bottom: 10rem;
     cursor: pointer;
+    border-radius: 6px;
+    transition: all .5s ease;
+}
+
+.gpt3__footer-btn:hover {
+    box-shadow:inset 300px 0 0 0 #FF4820;
 }
 
 .gpt3__footer-btn p {
@@ -40,6 +46,8 @@
     line-height: 21px;
     color: #fff;
     word-spacing: 2px;
+    transition: all .5s ease;
+    
 }
 
 .gpt3__footer-links {
