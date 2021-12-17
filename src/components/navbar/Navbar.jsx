@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import { RiMenu3Line, RiCloseLine, RiLinkedinBoxLine } from 'react-icons/ri';
 import { DiGithubBadge } from "react-icons/di";
-import { GrDocumentCsv } from "react-icons/gr";
+import { IoDocumentTextSharp } from "react-icons/io5";
 import './navbar.css';
 
 const Navbar = () => {
@@ -21,7 +21,8 @@ const Navbar = () => {
       <div className="gpt3__navbar-media">
           <a href="https://www.linkedin.com/in/gusmontoya/" target="_blank" color="gradient__text"><DiGithubBadge size={50} /></a>
           <a href="https://github.com/gusmontoya" target="_blank"><RiLinkedinBoxLine size={46} /></a>
-          <a href="https://drive.google.com/file/d/1klOh517L-hnPQTBHmRRdEyD7Erlr5htw/preview" target="_blank" ><GrDocumentCsv size={35} /></a>
+          <a href="https://drive.google.com/file/d/1klOh517L-hnPQTBHmRRdEyD7Erlr5htw/preview" target="_blank" ><IoDocumentTextSharp size={35} /></a>
+          
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu
