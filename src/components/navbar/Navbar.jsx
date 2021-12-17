@@ -1,5 +1,7 @@
 import React, { useState } from 'react';
-import { RiMenu3Line, RiCloseLine } from 'react-icons/ri';
+import { RiMenu3Line, RiCloseLine, RiLinkedinBoxLine } from 'react-icons/ri';
+import { DiGithubBadge } from "react-icons/di";
+import { GrDocumentCsv } from "react-icons/gr";
 import './navbar.css';
 
 const Navbar = () => {
@@ -10,13 +12,16 @@ const Navbar = () => {
       <div className="gpt3__navbar-links">
         <div className="gpt3__navbar-links_container">
           <p><a href="#home">Home</a></p>
+          <p><a href="#about">About</a></p>
           <p><a href="#skills">Skills</a></p>
-            <p><a href="#Projects">Projects</a></p>
-          <p><a href="#blog">Blogs</a></p>
+          <p><a href="#Projects">Projects</a></p>
+          <p><a href="#blog">Blog</a></p>
         </div>
       </div>
-      <div className="gpt3__navbar-sign">
-        <a href="https://drive.google.com/file/d/1klOh517L-hnPQTBHmRRdEyD7Erlr5htw/preview" target="_blank"><button className="btn" type="button">Resume</button></a>
+      <div className="gpt3__navbar-media">
+          <a href="https://www.linkedin.com/in/gusmontoya/" target="_blank" color="gradient__text"><DiGithubBadge size={50} /></a>
+          <a href="https://github.com/gusmontoya" target="_blank"><RiLinkedinBoxLine size={46} /></a>
+          <a href="https://drive.google.com/file/d/1klOh517L-hnPQTBHmRRdEyD7Erlr5htw/preview" target="_blank" ><GrDocumentCsv size={35} /></a>
       </div>
       <div className="gpt3__navbar-menu">
         {toggleMenu
@@ -26,13 +31,17 @@ const Navbar = () => {
         <div className="gpt3__navbar-menu_container scale-up-center">
           <div className="gpt3__navbar-menu_container-links">
             <p><a href="#home">Home</a></p>
+            <p><a href="#about">About</a></p>
             <p><a href="#skills">Skills</a></p>
             <p><a href="#Projects">Projects</a></p>
-            <p><a href="#blog">Blogs</a></p>
+            <p><a href="#blog">Blog</a></p>
           </div>
-          <div className="gpt3__navbar-menu_container-links-sign">
-            <a href="https://drive.google.com/file/d/1klOh517L-hnPQTBHmRRdEyD7Erlr5htw/preview" target="_blank"><button type="button">Resume</button></a>
-          </div>
+          {/* <div className="gpt3__navbar-menu_container-links-sign">
+            <a href="https://www.linkedin.com/in/gusmontoya/" target="_blank"><DiGithubBadge size={40} color="black"/></a>
+            <a href="https://github.com/gusmontoya" target="_blank"><RiLinkedinBoxLine size={40} color=""/></a>
+            <a href="https://drive.google.com/file/d/1klOh517L-hnPQTBHmRRdEyD7Erlr5htw/preview" target="_blank"><GrDocumentCsv size={40} color="black"/></a>
+             <a href="https://drive.google.com/file/d/1klOh517L-hnPQTBHmRRdEyD7Erlr5htw/preview" target="_blank"><button type="button">Resume</button></a> 
+          </div> */}
         </div>
         )}
       </div>

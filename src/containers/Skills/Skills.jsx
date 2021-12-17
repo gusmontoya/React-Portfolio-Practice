@@ -1,28 +1,8 @@
 import React from 'react';
-import frontEnd from './frontEnd';
-import tools from './tools';
-import backEnd from './backEnd';
-import Skill from '../../components/skill/Skill';
+import { FaReact, FaHtml5, FaCss3  } from 'react-icons/fa';
+import { SiPostman, SiMongodb, SiExpress, SiAndroidstudio, SiAffinityphoto, SiAffinitydesigner, SiJavascript, SiRedux, SiVisualstudiocode, SiTypescript, SiFigma } from "react-icons/si";
+import { DiGithubBadge, DiNodejs, DiGit, DiResponsive } from "react-icons/di";
 import './skills.css';
-
-// Turn features into projects list or it can be skills
-const skillsData = [
-  {
-    image: {frontEnd},
-    title: 'Front End',
-    // text: 'From they fine john he give of rich he. They age and draw mrs like. Improving end distrusts may instantly was household applauded.',
-  },
-  {
-    image: {tools},
-    title: 'Tools',
-    // text: 'Considered sympathize ten uncommonly occasional assistance sufficient not. Letter of on become he tended active enable to.',
-  },
-  {
-    image: {backEnd},
-    title: 'Back End',
-    // text: 'Led ask possible mistress relation elegance eat likewise debating. By message or am nothing amongst chiefly address.',
-  },
-];
 
 const Skills = () => (
   <div className="gpt3__skills section__padding" id="skills">
@@ -30,24 +10,40 @@ const Skills = () => (
       <h1 className="gradient__text">My Toolbox by which magic happens</h1>
       <p>It's not the amount of tools you have, but how well you use the ones you do have.</p>
     </div>
-    <div className="gpt3__skills-container">
-      {skillsData.map((item, index) => (
-        <Skill title={item.title} image={item.image} key={item.title + index} />
-      ))}   
-    </div>
-    {/* <div className="App">
-      <div className="imgContainer">
-        {frontEnd.map((img, index) => (
-          <img src={img} alt="logos" />
-        ))}
-        {tools.map((img, index) => (
-          <img src={img} alt="logos" />
-        ))}
-        {backEnd.map((img, index) => (
-          <img src={img} alt="logos" />
-        ))}
+    <section className="container-icons">
+      <div className="box-icon">
+        <ul className="fa__icon-frontEnd">
+            <li className="icon__list"><SiJavascript size={40} color="#F0DB4F"/>JavaScript</li>
+            <li className="icon__list"><FaReact size={40} color="#61DBFB"/>React</li>
+            <li className="icon__list"><SiRedux size={40} color="#764abc "/>Redux</li>
+            <li className="icon__list"><FaHtml5 size={40} color="orange"/>HTML5</li>
+            <li className="icon__list"><FaCss3 size={40} color="#264de4 "/>CSS3</li>
+        </ul>
       </div>
-    </div> */}
+      <div> 
+        <ul className="fa__icon-frontEnd">
+            <li className="icon__list"><DiGit size={40} color="red"/>Git</li>
+            <li className="icon__list"><DiGithubBadge size={40} color="black"/>Github</li>
+            <li className="icon__list"><SiVisualstudiocode size={40} color="#0078d7"/>VSCode</li>
+            <li className="icon__list"><SiTypescript size={40} color="navy"/>Typescript</li>
+            <li className="icon__list"><SiFigma size={40} color="black"/>Figma</li>
+        </ul>
+        <ul className="fa__icon-frontEnd">
+            <li className="icon__list"><SiAffinitydesigner size={40} color="blue"/>Affinity Designer</li>
+            <li className="icon__list"><SiAffinityphoto size={40} color="magenta"/>Affinity Photo</li>
+            <li className="icon__list"><SiAndroidstudio size={40} color="#78c257"/>Android Studio</li>
+            <li className="icon__list"><SiPostman size={40} color="orange"/>Postman</li>
+            
+        </ul>
+      </div>
+      <div>
+        <ul className="fa__icon-frontEnd">
+            <li className="icon__list"><DiNodejs size={40} color="olive"/>Node JS</li>
+            <li className="icon__list"><SiExpress size={40} color="black"/>Express</li>
+            <li className="icon__list"><SiMongodb size={40} color="green"/>Mongodb</li>
+        </ul>
+      </div>
+  </section>
   </div>
 );
 

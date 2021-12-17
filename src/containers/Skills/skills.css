@@ -58,3 +58,23 @@
         line-height: 38px;
     }
 }
+
+/* -----------Skills icons--------------------- */
+
+.fa__icon-frontEnd {
+    display: flex;
+    flex-direction:row;
+    gap: 1.5rem;
+    margin-right: 2rem;
+    overflow: wrap;
+    line-height: 65px;
+}
+
+.icon__list {
+    color: #fff;
+    list-style-type: none;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-content: center;
+}
