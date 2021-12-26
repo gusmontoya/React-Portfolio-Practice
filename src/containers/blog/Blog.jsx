@@ -1,4 +1,5 @@
 import React from 'react';
+import { Skill } from '../../components';
 import Article from '../../components/article/Article';
 import { blog01, blog02, blog03, blog04, blog05 } from './imports';
 import Mentor from '../../components/mentor/Mentor';
@@ -7,7 +8,8 @@ import './blog.css';
 const Blog = () => (
   <div className="gpt3__blog section__padding" id="blog">
     <div className="gpt3__blog-heading">
-      <h1 className="gradient__text">Figuring it out can be daunting, <br /> these are resources I've used to stay ontrack.</h1>
+      <Skill title="Blog" />
+      <h1 className="gradient__text">Figuring it out can be daunting, <br /> these are resources I've used to stay on track.</h1>
     </div>
     <Mentor />
     <div className="gpt3__blog-container">

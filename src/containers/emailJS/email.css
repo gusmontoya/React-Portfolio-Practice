@@ -1,0 +1,36 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    width: 100vw;
+    height: 100v;
+    font-family: Montserrat;
+    padding: 10em 10em;
+}
+
+.glass{
+    width: 400vw;
+height: 600px;
+background-color: rgba(255,255,255,0,1);
+padding: 50px;
+color:black;
+border-radius: 5px;
+backdrop-filter: blur(30px);
+border: 2px solid transparent;
+background-clip: padding-box;
+box-shadow: 10px 10px 10px rgba(45, 55, 68, 0.0.3);
+line-height: 1.5;
+}
+
+h2 {
+    font-size: 30px;
+    margin-bottom: 20px;
+}
+
+p { 
+    font-size: 16px;
+    margin-bottom: 10px;
+}

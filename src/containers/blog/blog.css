@@ -11,7 +11,7 @@
 }
 
 .gpt3__blog-heading h1 {
-    font-size: 62px;
+    font-size: 52px;
     line-height: 75px;
     font-family: var(--font-family);
     font-weight: 800;
@@ -48,7 +48,7 @@
     }
 
     .gpt3__blog-container_groupA .gpt3__blog-container_article  {
-       width: 48%;
+        width: 48%;
     }
 
     .gpt3__blog-container_groupA .gpt3__blog-container_article-image {
@@ -65,7 +65,7 @@
     }
 
     .gpt3__blog-container_groupA .gpt3__blog-container_article  {
-       width: 100%;
+        width: 100%;
     }
 
     .gpt3__blog-heading h1 {

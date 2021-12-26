@@ -18,10 +18,16 @@
     flex-direction: row;
 }
 
+.gpt3__navbar-links_container p:hover{
+    color: #fff;
+    
+}
+
 .gpt3__navbar-media {
     display: flex;
     justify-content: flex-end;
     align-items: center;
+    color:#fff;
 }
 
 .gpt3__navbar-links_container p,
@@ -38,6 +44,15 @@
     cursor: pointer;
 }
 
+.gpt3__navbar-media a:hover {
+    color: black;
+
+}
+.btn:hover {
+    box-shadow: inset 300px 0 0 0 #e6674af3;
+    color: #2B6D8B;
+}
+
 .gpt3__navbar-media {
     padding: .5rem;
     margin-bottom: 0.8px;
@@ -50,11 +65,6 @@
 }
 
 /* add hover over opacity */
-
-.btn:hover {
-    box-shadow: inset 300px 0 0 0 #e6674af3;
-    color: #2B6D8B;
-}
 
 .gpt3__navbar-menu {
     margin-left: 1rem;
@@ -126,3 +136,81 @@
         display: block;
     }
 }
+
+/* ---------  testing code  ------------- */
+
+.gpt3__navbar-links {
+    width: 80%;
+    margin: 0 auto;
+    /* background: #fff; */
+    padding: 50px 0;
+    /* box-shadow: 0px 5px 0px #dedede; */
+  }
+  .gpt3__navbar-links .gpt3__navbar-links_container {
+    list-style: none;
+    text-align: center;
+  }
+  .gpt3__navbar-links .gpt3__navbar-links_container p {
+    display: inline-block;
+  }
+  .gpt3__navbar-links .gpt3__navbar-links_container p a {
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+    /* color: #aaa; */
+    /* font-weight: 800; */
+    /* text-transform: uppercase; */
+    margin: 0 10px;
+  }
+  .gpt3__navbar-links .gpt3__navbar-links_container p a,
+  .gpt3__navbar-links .gpt3__navbar-links_container p a:after,
+  .gpt3__navbar-links .gpt3__navbar-links_container p a:before {
+    transition: all .5s;
+  }
+  .gpt3__navbar-links .gpt3__navbar-links_container p a:hover {
+    color: #FF4820;
+  }
+  
+  
+  /* fill */
+  
+  .gpt3__navbar-links.fill .gpt3__navbar-links_container p a {
+    position: relative;
+  }
+  
+  .gpt3__navbar-links.fill .gpt3__navbar-links_container p a:after {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+    width: 0%;
+    content: '.';
+    color: transparent;
+    background-color: #aaa;
+    height: 1px;
+  }
+  
+  .gpt3__navbar-links.fill .gpt3__navbar-links_container p a {
+    transition: all 2s;
+  }
+  
+  .gpt3__navbar-links.fill .gpt3__navbar-links_container p a:after {
+    text-align: left;
+    content: '.';
+    margin: 0;
+    opacity: 0;
+  }
+  .gpt3__navbar-links.fill .gpt3__navbar-links_container p a:hover {
+    color: #fff;
+    z-index: 1;
+  }
+  .gpt3__navbar-links.fill .gpt3__navbar-links_container p a:hover:after {
+    z-index: -10;
+    animation: fill 1s forwards;
+    -webkit-animation: fill 1s forwards;
+    -moz-animation: fill 1s forwards;
+    opacity: 1;
+  }
+
+

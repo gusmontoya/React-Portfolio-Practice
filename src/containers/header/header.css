@@ -32,7 +32,7 @@
 }
 
 .gpt3__header-content__input {
-    width: 100%;
+    width: 40%;
     margin: 2rem 0 1rem;
 
     display: flex;
@@ -53,8 +53,7 @@
     outline: none;
     color: #fff;
 
-    border-top-left-radius: 5px;
-    border-bottom-left-radius: 5px;
+    border-radius: 5px;
 }
 
 .gpt3__header-content__input button {
@@ -76,15 +75,15 @@
 
     box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
 
-    border-top-right-radius: 6px;
-    border-bottom-right-radius: 6px;
+    border-radius: 5px;
 }
 
 /* Add hover over opacity */
 .gpt3__header-content__input button:hover {
-    box-shadow: inset 300px 0 0 0 #e6674af3;
     border: 2px solid #e6674af3;
-    color: #2B6D8B;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    background-color: #104680;
 }
 
 .gpt3__header-image {
