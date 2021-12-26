@@ -19,9 +19,9 @@ const Navbar = () => {
         </div>
       </div>
       <div className="gpt3__navbar-media">
-          <a href="https://www.linkedin.com/in/gusmontoya/" target="_blank" color="gradient__text"><DiGithubBadge size={50} /></a>
-          <a href="https://github.com/gusmontoya" target="_blank"><RiLinkedinBoxLine size={46} /></a>
-          <a href="https://drive.google.com/file/d/1klOh517L-hnPQTBHmRRdEyD7Erlr5htw/preview" target="_blank" ><IoDocumentTextSharp size={35} /></a>
+          <a href="https://www.linkedin.com/in/gusmontoya/" target="_blank" rel="noreferrer" color="gradient__text"><DiGithubBadge size={50} /></a>
+          <a href="https://github.com/gusmontoya" target="_blank" rel="noreferrer" ><RiLinkedinBoxLine size={46} /></a>
+          <a href="https://drive.google.com/file/d/1klOh517L-hnPQTBHmRRdEyD7Erlr5htw/preview" target="_blank" rel="noreferrer" ><IoDocumentTextSharp size={35} /></a>
           
       </div>
       <div className="gpt3__navbar-menu">

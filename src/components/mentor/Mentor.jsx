@@ -9,7 +9,7 @@ const Mentor = () => (
         worlds version of Angels that drop advice that guides you. One has to think critically of the advice and execute. </h3>
     </div>
     <div className="gpt3__Mentor-btn">
-      <a href="https://dev.to/willjohnsonio/how-to-find-a-mentor-using-twitter-3fl8" target="_blank"><button type="button">Find a mentor</button></a>
+      <a href="https://dev.to/willjohnsonio/how-to-find-a-mentor-using-twitter-3fl8" target="_blank" rel="noreferrer"><button type="button">Find a mentor</button></a>
     </div>
   </div>
 );

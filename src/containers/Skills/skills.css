@@ -41,11 +41,11 @@
     flex-direction: column;
 }
 
-.icon__list {
+.fa__icon-frontEnd li {
     display: flex;
     justify-content: center;
     align-items: center;
-    
+    color: rgb(16, 95, 168);
 }
 
 @media screen and (max-width: 990px) {
