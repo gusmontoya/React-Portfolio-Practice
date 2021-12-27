@@ -43,6 +43,7 @@
 
 .fa__icon-frontEnd li {
     display: flex;
+    font-family: var(--font-family);
     justify-content: center;
     align-items: center;
     color: rgb(16, 95, 168);

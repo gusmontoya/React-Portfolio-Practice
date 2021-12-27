@@ -96,16 +96,22 @@
 
 .contaier-icons-mini {
     display: flex;
-    flex-direction: row;
+    /* flex-direction: row;
     padding: 22px;
-    justify-content: space-between;
+    justify-content: space-between; */
+    margin: 0 auto;
 }
 
 .box-icon{
-    padding: 0 20px;
+    margin: 0 auto;
     color: #fff;
     
 
+}
+
+.box-icon > svg {
+    /* adds spacing */
+    margin: 16px; 
 }
 
 /* Customizing feature component as per needs */
