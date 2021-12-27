@@ -88,6 +88,8 @@
     flex-direction: column; */
     padding-bottom: 1rem;
     margin-top: 2rem;
+    margin-top: 2rem;
+    padding-bottom: 6em; /* increase padding height? */
 }
 
 .gpt3__projects-container img{
@@ -157,6 +159,11 @@
     }
 }
 
+@media screen and (max-width: 550px){
+.section__margin {
+margin: 0rem;
+}}
+
 @media screen and (max-width: 350px) {
     /* Customizing feature component as per needs */
     .gpt3__projects-container .gpt3__features-container__feature {
@@ -164,3 +171,4 @@
         min-width: 100%;
     }
 }
+
