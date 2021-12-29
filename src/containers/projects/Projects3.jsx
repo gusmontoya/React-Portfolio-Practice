@@ -15,7 +15,7 @@ const Projects = () => (
         </div>
         <div className="gpt3__projects-heading">
         <h1 className="gradient__text">The road to success is always under construction. Here's a selection of stuff I've built.</h1>
-        <a href="https://github.com/gusmontoya"><p>Explore my github Library</p></a>
+        <a href="https://github.com/gusmontoya" target="_blank" rel="noreferrer" ><p>Explore my github Library</p></a>
         </div>
             <div className="cards__container">
                 <div className="gpt3__projects-container">
