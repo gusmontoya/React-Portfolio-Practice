@@ -11,9 +11,8 @@ const About = () => (
     <div className="gpt3__possibility-content">
       <Skill title="About" />
       <h1 className="gradient__text">Who is Gus?</h1>
-      <p>As a life long busy body, before tech I gave 8 years to healthcare and home health. I later started a 3d printing buisness
-         for surgeons in my community. Bringing tech and visual aspects of life to help solve problems can be a magical and impactful combination. 
-         Adapting to Covids disruption I decided to reskill myself for a new path in my life. Learning full stack development was an unexpected path I fell in love with.
+      <p>As a life long busy body, before tech I gave 8 years to healthcare and home health. I later started a 3d printing buisness for surgeons in my community. 
+        Adapting to Covids disruption I decided to reskill myself for a new path in my life. Learning full stack development was an unexpected path I fell in love with.
          As a follower of Robert Cecil Martin's <a className="anchorLink" href="https://youtu.be/7EmboKQH8lM" target="_blank" rel="noreferrer" aria-label="open link to Clean Code - Uncle Bob."> principles of clean code</a>,
           I agree that reducing complexity as much as possible is important not only in code but also in product design and life itself.</p>
           <p>I have a <span class="bold">Certificate of Full Stack Developer</span> from 
