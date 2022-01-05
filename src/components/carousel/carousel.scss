@@ -1,0 +1,220 @@
+
+$tablet: 768px;
+$laptop: 992px;
+$desktop: 1200px;
+
+#app {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+// body {
+//   & * {
+//     // box-sizing: border-box;
+//     margin: 0 auto;
+//   }
+// }
+
+.slideContent {
+  width: 250px;
+  height: 350px;
+  background-size: cover;
+  background-position: center center;
+  background-repeat: no-repeat;
+  transition: transform 0.5s ease-in-out;
+  opacity: 0.7;
+  display: grid;
+  align-content: center;
+  transform-style: preserve-3d;
+  transform: perspective(1000px) translateX(calc(100% * var(--offset)))
+    rotateY(calc(-45deg * var(--dir)));
+  border-radius: 15px;
+  margin: 0 auto;
+}
+
+.slideContentInner {
+  transform-style: preserve-3d;
+  transform: translateZ(2rem);
+  transition: opacity 0.3s linear;
+  // color: white;
+  color: #104680;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+  opacity: 0;
+  margin: 0 auto;
+
+  .slideSubtitle,
+  .slideTitle {
+    font-size: 2rem;
+    font-weight: normal;
+    letter-spacing: 0.2ch;
+    text-transform: uppercase;
+    // margin: 0;
+    margin: 0 auto;
+    // -webkit-text-stroke-width: 0.5px;
+    // -webkit-text-stroke-color: black;
+    text-shadow: 0px 2px 4px blue;
+    font-family: var(--font-family);
+    font-weight: 500px;
+    // color: #104680;
+    background: linear-gradient(to right, #AE67FA 1.84%, #F49867 102.67%);
+            -webkit-text-fill-color: transparent;
+            -webkit-background-clip: text;
+    opacity: 1;
+  }
+
+
+  .slideSubtitle::before {
+    content: "— ";
+  }
+
+  .slideDescription {
+    // margin: 0;
+    margin: 0 auto;
+    font-size: 0.8rem;
+    letter-spacing: 0.2ch;
+  }
+}
+
+.slideBackground {
+  position: fixed !important;
+  top: 0;
+  left: -10%;
+  right: -10%;
+  bottom: 0;
+  background-size: cover;
+  background-position: center center;
+  z-index: -1;
+  opacity: 0;
+  transition: opacity 0.3s linear, transform 0.3s ease-in-out;
+  pointer-events: none;
+  transform: translateX(calc(10% * var(--dir)));
+  margin: 0 auto;
+}
+
+.slide[data-active] {
+  z-index: 2;
+  pointer-events: auto;
+  margin: 0 auto;
+
+  .slideBackground {
+    opacity: 0.1;
+    transform: none;
+    margin: 0 auto;
+  }
+
+  .slideContentInner {
+    opacity: 1;
+    margin: 0 auto;
+  }
+
+  .slideContent {
+    --x: calc(var(--px) - 0.5);
+    --y: calc(var(--py) - 0.5);
+    opacity: 1;
+    transform: perspective(1000px);
+
+    &:hover {
+      transition: none;
+      transform: perspective(1000px) rotateY(calc(var(--x) * 45deg))
+        rotateX(calc(var(--y) * -45deg));
+        margin: 0 auto;
+    }
+  }
+}
+
+.slidesWrapper {
+  min-height: 500px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  overflow: hidden;
+  width: 100%;
+  margin: 0 auto;
+
+  // > 768
+  @media (min-width: $tablet) {
+    width: 750px;
+  }
+  // > 992
+  @media (min-width: $laptop) {
+    width: 970px;
+  }
+  // > 1200
+  @media (min-width: $desktop) {
+    width: 1170px;
+  }
+
+  *,
+  *::before,
+  *::after {
+    position: relative;
+  }
+}
+
+.slides {
+  display: grid;
+  > .slide {
+    grid-area: 1 / -1;
+  }
+
+  > .prevSlideBtn,
+  .nextSlideBtn {
+    appearance: none;
+    background: transparent;
+    border: none;
+    color: white;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    position: absolute;
+    font-size: 2rem;
+    width: 5rem;
+    height: 5rem;
+    top: 30%;
+    transition: opacity 0.3s;
+    opacity: 0.7;
+    z-index: 5;
+
+    &:hover {
+      opacity: 1;
+    }
+
+    &:focus {
+      outline: none;
+    }
+  }
+
+  > .prevSlideBtn {
+    left: -25%;
+  }
+
+  > .nextSlideBtn {
+    right: -25%;
+  }
+}
+
+.button-links {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.demo-button,
+.repo-button {
+  display: inline-block;
+
+  text-decoration: none;
+  text-align: center;
+  border-radius: 5px;
+  width: 60px;
+  cursor: pointer;
+  padding: 0.4rem;
+  margin: 0px 30px;
+  font-size: 12px;
+  font-weight: 400;
+  color: #000;
+  cursor: pointer;
+  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+
+  // rgba(225,175,153,.401)
+  border: 1px solid rgba(255, 255, 255, 0.5);
+}

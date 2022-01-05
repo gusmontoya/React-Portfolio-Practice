@@ -1,7 +1,7 @@
 import React from 'react';
-import './cta.css';
+import './podcast.css';
 
-const CTA = () => (
+const Podcast = () => (
   <div className="gpt3__cta">
     <div className="gpt3__cta-content">
       <p>Advice from the experts who started where everyone else had... at the beginning!</p>
@@ -13,4 +13,4 @@ const CTA = () => (
   </div>
 );
 
-export default CTA;
+export default Podcast;

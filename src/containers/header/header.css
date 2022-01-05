@@ -39,7 +39,7 @@
     flex-direction: row;
 }
 
-.gpt3__header-content__input input {
+/* .gpt3__header-content__input input {
     flex: 2;
     width: 100%;
     min-height: 50px;
@@ -54,9 +54,9 @@
     color: #fff;
 
     border-radius: 5px;
-}
+} */
 
-.gpt3__header-content__input button {
+/* .gpt3__header-content__input button {
     flex: 0.6;
     width: 100%;
     min-height: 50px;
@@ -78,13 +78,12 @@
     border-radius: 5px;
 }
 
-/* Add hover over opacity */
 .gpt3__header-content__input button:hover {
     border: 2px solid #e6674af3;
     background: var(--color-footer);
     border: 2px solid var(--color-footer);
     background-color: #104680;
-}
+} */
 
 .gpt3__header-image {
     flex: 1;

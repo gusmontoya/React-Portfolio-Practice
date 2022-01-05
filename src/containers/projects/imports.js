@@ -1,6 +1,8 @@
-import repo01 from '../../assets/ReactCV.png';
+import repo01 from '../../assets/React-CV.png';
 import repo02 from '../../assets/travelJournal.png';
-import repo03 from '../../assets/under-construction-large.gif';
+import repo03 from '../../assets/under-construction-small.gif';
+
+
 
 
 export {

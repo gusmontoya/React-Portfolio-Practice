@@ -46,7 +46,6 @@
 
 .gpt3__navbar-media a:hover {
     color: black;
-
 }
 .btn:hover {
     box-shadow: inset 300px 0 0 0 #e6674af3;
@@ -64,8 +63,17 @@
     gap: 25px;
 }
 
-/* add hover over opacity */
+.gpt3__navbar-menu_container-links-sign {
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+    color:#fff;
+}
 
+/* add hover over opacity */
+.gpt3__navbar-menu_container-links-sign a:hover {
+    color: black;
+}
 .gpt3__navbar-menu {
     margin-left: 1rem;
 

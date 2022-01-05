@@ -1,19 +1,13 @@
 .gpt3__skills {
     width: 100%;
-    display: flex;
-    justify-content: space-between;
-    flex-direction: row;
+    display: block;
 }
 
 .gpt3__skills-heading {
-    flex: 1;
-    display: flex;
-    justify-content: flex-start;
-    align-items: flex-start;
-    flex-direction: column;
-
-    text-align: left;
-    margin-right: 2rem;
+    max-width: 1280px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 0 8%;
 }
 
 .gpt3__skills-heading h1 {
@@ -24,7 +18,6 @@
 }
 
 .gpt3__skills-heading p {
-    /* color: var(--color-subtext); */
     font-size: 16px;
     line-height: 30px;
     font-weight: 500;
@@ -34,19 +27,39 @@
 }
 
 .container-icons {
-    flex: 1.5;
+    text-align: center;
+    margin-bottom: 3rem;
     display: flex;
-    justify-content: flex-start;
-    align-items: center;
-    flex-direction: column;
+    flex-direction: row;
+    flex-wrap: wrap;
 }
 
-.fa__icon-frontEnd li {
-    display: flex;
-    font-family: var(--font-family);
-    justify-content: center;
-    align-items: center;
-    color: rgb(16, 95, 168);
+.box-icon {
+width: 12.5%;
+height: 142 px;
+margin-bottom: 10px;
+text-align: center;
+}
+
+.icon__list {
+    font-size: 3.5rem;
+    font-weight: 400;
+    line-height: 1;
+    /* font-family */
+}
+
+.box {
+    border-radius: 5px;
+    padding: 20px;
+    font-size: 150%;
+
+}
+
+.box p {
+    margin-bottom: 50px;
+    line-height: 1.55;
+    font-size: 1rem;
+
 }
 
 @media screen and (max-width: 990px) {
@@ -64,6 +77,17 @@
     .gpt3__skills-heading h1 {
         font-size: 28px;
         line-height: 38px;
+    }
+}
+
+@media screen and (max-width: 380px) {
+    .container-icons {
+        display: flex;
+    }
+    .icon__list {
+        size: 50px;
+        padding: 20px;
+        font-size: 150%;
     }
 }
 

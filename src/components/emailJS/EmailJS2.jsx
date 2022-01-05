@@ -1,5 +1,5 @@
 import emailjs from "emailjs-com";
-import setModalIsOpen from '../modal/Modal';
+import setModalIsOpen from '../../containers/modal/Modal';
 import form from 'react';
 // import '../modal/modal.css';
 

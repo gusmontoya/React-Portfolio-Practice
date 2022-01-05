@@ -1,0 +1,232 @@
+// Modal container
+
+.modalContainer {
+    // height: 75vh;
+    // width: 100vw;
+    // background-color: rgba(200, 200, 200, 0.994);
+    position: fixed;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    opacity: 0;
+    visibility: hidden;
+    transition: all 0.2s ease;
+    // transform: translateY(-55%);
+    z-index: 1;
+    top: 50;
+    left: 35%;
+}
+
+.modal {
+    width: calc(15rem + 15vw);
+    // height: auto;
+    border-radius: 15px;
+    // background-color: rgba(255, 255, 255, 0.35);
+    background-color: rgba(37, 36, 36, 0.878);
+    box-shadow: 0 0 1rem 0 rgba(0, 0, 0, 0.2);
+    padding: 2rem;
+    display: flex;
+    flex-direction: column;
+
+    backdrop-filter: blur(5px);
+    transform: translateY(-600px);
+    transition:all 0.4s ease;
+    
+// added new properties
+    
+
+    &_header {
+        position: relative;
+        border-bottom: 1px solid linear-gradient(90deg, deeppink, blueviolet);
+
+        &-title {
+            text-align: center;
+        }
+
+        .close {
+            position: absolute;
+            top: 0;
+            right: 0;
+            background: transparent;
+            padding: 0;
+            border: none;
+            background: none;
+
+            .closeIcon {
+                width:1rem;
+                height: auto;
+                color:rgba(255, 255, 255, .7)
+            }
+
+            &:hover{
+                .closeIcon{
+                    transform: scale(1.5);
+                }
+            }
+        }
+    &_content {
+        // border-bottom: 1px solid #dddddd;
+        padding: 2rem 0;
+    }
+
+    }
+}
+
+.gradientBorder{
+    text-align:center;
+    padding-bottom:2px;
+    background:
+      linear-gradient(
+        to left, 
+        rgba(92,7,52,1) 0%,
+        rgba(134,29,84,1) 12%,
+        rgba(255,93,177,1) 47%,
+        rgba(83,0,30,1) 100%
+      )
+      left 
+      bottom
+      #777    
+      no-repeat; 
+    background-size:100% 5px ;
+  }
+
+
+    @keyframes animate {
+        0% {
+            left: 0;
+        }
+
+        50% {
+            left: 100%;
+        }
+
+        0% {
+            left: 0;
+        }
+    }
+
+
+
+// Main section
+
+
+.modalContainer.show {
+    visibility: visible;
+    opacity: 1;
+    margin: 0 auto;
+    transform: translateY(-50%);
+    
+    .modal{
+        transform: translateY(0%);
+        
+    }
+}
+
+
+
+
+// Inner Content
+
+.modalContainer form h3 {
+    font-size: 30px;
+    padding: 30px;
+    color: #ccc;
+    letter-spacing: 3px;
+}
+
+.modalContainer form i {
+    padding: 0 5px;
+    font-size: 20px;
+    color: #bbb;
+}
+
+.modalContainer form div {
+    display: flex;
+    flex-direction: row;
+    justify-content:center;
+    align-items: center  ;
+}
+
+.submit-btn {
+    justify-content: flex-start;
+    align-items: top;
+}
+
+
+.modalContainer form input {
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 75%;
+    background: rgba(0,0,0,.1);
+    color: rgba(255, 255, 255, 0.809);
+    box-shadow: 0 0 5px rgba(0,0,0,.3) inset;
+    font-size: 17px;
+    padding: 0 10px;
+    padding-right: 15px;
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+
+.icon {
+    padding-right: 15px;
+}
+
+.modalContainer form textarea {
+    outline: none;
+    border: none;
+    height: 240px;
+    width: 75%;
+    background: rgba(0,0,0,.1);
+    color: rgba(255, 255, 255, .7);
+   //  color: rgba(37, 36, 36, 0.878);
+    box-shadow: 0 0 5px rgba(0,0,0,.3) inset;
+    font-size: 17px;
+    padding: 0 10px;
+    margin: 15px 0;
+    letter-spacing: 1px;
+}
+
+
+.modalContainer form input[type="submit"] {
+    width: 90%;
+    cursor: pointer;
+    background: linear-gradient(90deg, deeppink, blueviolet);
+    margin-top: 30px;
+    border-radius: 50px;
+}
+
+.modalContainer form form input[type="submit"]:hover{
+    letter-spacing: 4px;
+}
+
+.modal_content {
+    margin: 0 auto;
+}
+
+.gradient__text {
+    margin: 0 auto;
+    flex-wrap: wrap;
+}
+
+// Button code
+
+.submit {
+    margin-right: 1rem;
+    background-color: #364348;
+    color: #fff;
+
+    &:hover {
+        background-color: rgba(54, 67, 72, 0.8);
+    }
+}
+
+.modal-close {
+    background-color: transparent;
+    font-weight: 600;
+    
+    &:hover {
+        background-color: rgba(54, 67, 72, 0.8);
+    }
+}

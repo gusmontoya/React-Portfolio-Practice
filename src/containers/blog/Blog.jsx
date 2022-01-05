@@ -14,13 +14,13 @@ const Blog = () => (
     <Mentor />
     <div className="gpt3__blog-container">
       <div className="gpt3__blog-container_groupA">
-        <a href="https://learntocodewith.me/podcast/from-frying-chicken-to-working-at-google-danny-thompson/"><Article imgUrl={blog01} date="June 08, 2021" text="From frying chicken to working at Google with Danny Thompson!" /></a>
+        <a href="https://learntocodewith.me/podcast/from-frying-chicken-to-working-at-google-danny-thompson/"><Article imgUrl={blog01} title="From frying chicken to working at Google" text="A big man with a bigger heart ! Danny beleives in the team rising together. If one portion of the team needs help with a task, he has no issue jumping in to assist on anything required. He runs the largest meetup group of Developers in the Memphis area and provides resources and support to those that are learning to code." /></a>
       </div>
       <div className="gpt3__blog-container_groupB">
-        <a href="https://www.youtube.com/watch?v=4FeOjYH6CjA&ab_channel=TaylorDesseyn"><Article imgUrl={blog02} date="July 16, 2021" text="Guidance Counselor 2.0 w/Danny Thompson." /></a>
-        <a href="https://www.madisonkanna.com/"><Article imgUrl={blog03} date="2021" text="Great resource for beginners. She also has a podcast that I believe has golden nuggets littered everywhere." /></a>
-        <a href="https://www.freecodecamp.org/"><Article imgUrl={blog04} date="2021" text="A great free site from beginner to expert."></Article></a>
-        <a href="https://scrimba.com"><Article imgUrl={blog05} date="2021" text="Great site to learn for free or paid, I used this to cement React concepts." /></a>
+        <a href="https://www.youtube.com/watch?v=4FeOjYH6CjA&ab_channel=TaylorDesseyn" target="_blank"><Article imgUrl={blog02} title="Guidance Counselor 2.0 w/Danny Thompson." text="If zeal in ones profession were a material element this recruiter would be covered in gold! My daily morning listening regiment." /></a>
+        <a href="https://www.madisonkanna.com/" target="_blank"><Article imgUrl={blog03} title="Madison Kanna's guidance rich site" text="Great reading resource for beginners." /></a>
+        <a href="https://www.freecodecamp.org/" target="_blank"><Article imgUrl={blog04} title="freeCodeCamp: Learn to code for FREE" text="It does not matter if your starting from scratch or wishing to level up your skills. This resource is available for you at an ultimate low price of FREE!"></Article></a>
+        <a href="https://scrimba.com" target="_blank"><Article imgUrl={blog05} title="A new way of learning and it WORKS!" text="Great site to learn for free or paid, I used this to cement React principles and concepts." /></a>
       </div>
     </div>
   </div>

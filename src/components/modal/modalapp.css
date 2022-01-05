@@ -1,0 +1,60 @@
+/* .gpt3__header-content__input {
+    width: 40%;
+    margin: 2rem 0 1rem;
+
+    display: flex;
+    flex-direction: row;
+} */
+
+/* .gpt3__header-content__input button {
+    flex: 0.6 1;
+    width: 100%;
+    min-height: 50px;
+    font-family: var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    background: #FF4820;
+    border: 2px solid #FF4820;
+    transition: ease-out 0.3s;
+    padding: 0 1rem;
+    color: #fff;
+    cursor: pointer;
+    outline: none;
+
+    box-shadow: 0 10px 20px -8px rgba(0, 0, 0,.7);
+
+    border-radius: 5px;
+} */
+
+.gpt3__header-content__input {
+    /* width: 100vw;
+    height: 100vh; */
+    display: flex;
+    align-items: center;
+    /* flex-direction: column; */
+    font-family:  var(--font-family);
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 28px;
+    cursor: pointer;
+  }
+
+.gpt3__header-content__input .clickMe {
+    width: 200px;
+    height: 40px;
+    border: none;
+    border-radius: 6px;
+    background-color: #FF4820;
+    color: white;
+    cursor: pointer;
+}
+
+
+/* Add hover over opacity */
+.gpt3__header-content__input button:hover {
+    border: 2px solid #e6674af3;
+    background: var(--color-footer);
+    border: 2px solid var(--color-footer);
+    background-color: #104680;
+}

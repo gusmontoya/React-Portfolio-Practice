@@ -37,6 +37,11 @@ const Navbar = () => {
             <p><a href="#projects">Projects</a></p>
             <p><a href="#blog">Blog</a></p>
           </div>
+          <div className="gpt3__navbar-menu_container-links-sign">
+              <a href="https://github.com/gusmontoya" target="_blank" rel="noreferrer" color="gradient__text"><DiGithubBadge size={50} /></a>
+              <a href="https://www.linkedin.com/in/gusmontoya/" target="_blank" rel="noreferrer" ><RiLinkedinBoxLine size={46} /></a>
+              <a href="https://drive.google.com/file/d/1klOh517L-hnPQTBHmRRdEyD7Erlr5htw/preview" target="_blank" rel="noreferrer" ><IoDocumentTextSharp size={35} /></a>
+          </div>
         </div>
         )}
       </div>
