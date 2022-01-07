@@ -28,7 +28,7 @@ const slides = [
     description: "A mock realtor site for a close friend. ",
     image:
       "https://github.com/gusmontoya/Garrick_Yan_Group-Realtor/blob/main/assets/images/search%20page.png?raw=true",
-    Demo: "",
+    Demo: "https://garrick-yan-group-realtor.vercel.app/",
     Repo: "https://github.com/gusmontoya/Garrick_Yan_Group-Realtor"
   },
   {
