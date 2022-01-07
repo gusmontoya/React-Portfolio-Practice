@@ -23,7 +23,7 @@ $desktop: 1200px;
   background-position: center center;
   background-repeat: no-repeat;
   transition: transform 0.5s ease-in-out;
-  opacity: 0.7;
+  opacity: 0.2;
   display: grid;
   align-content: center;
   transform-style: preserve-3d;
@@ -31,6 +31,7 @@ $desktop: 1200px;
     rotateY(calc(-45deg * var(--dir)));
   border-radius: 15px;
   margin: 0 auto;
+  background-color: black;
 }
 
 .slideContentInner {
@@ -38,7 +39,7 @@ $desktop: 1200px;
   transform: translateZ(2rem);
   transition: opacity 0.3s linear;
   // color: white;
-  color: #104680;
+  color: #F49867;
   text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
   opacity: 0;
   margin: 0 auto;
@@ -51,15 +52,12 @@ $desktop: 1200px;
     text-transform: uppercase;
     // margin: 0;
     margin: 0 auto;
-    // -webkit-text-stroke-width: 0.5px;
-    // -webkit-text-stroke-color: black;
-    text-shadow: 0px 1px 2px blue;
     font-family: var(--font-family);
     font-weight: 500px;
-    // color: #104680;
-    background: linear-gradient(to right, #AE67FA 1.84%, #F49867 102.67%);
-            -webkit-text-fill-color: transparent;
-            -webkit-background-clip: text;
+    -webkit-text-stroke-width: 0.5px;
+    -webkit-text-stroke-color: rgb(57, 53, 53);
+    color: #F49867;
+    -webkit-background-clip: text;
     opacity: 1;
   }
 
@@ -158,15 +156,13 @@ $desktop: 1200px;
     grid-area: 1 / -1;
   }
 
-  > .prevSlideBtn,
-  .nextSlideBtn {
+  > button {
     appearance: none;
     background: transparent;
     border: none;
-    color: white;
-    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.6);
+    color: #F49867;
     position: absolute;
-    font-size: 2rem;
+    font-size: 5rem;
     width: 5rem;
     height: 5rem;
     top: 30%;
@@ -181,14 +177,13 @@ $desktop: 1200px;
     &:focus {
       outline: none;
     }
-  }
 
-  > .prevSlideBtn {
-    left: -25%;
-  }
-
-  > .nextSlideBtn {
-    right: -25%;
+    &:first-child {
+      left: -50%;
+    }
+    &:last-child {
+      right: -50%;
+    }
   }
 }
 
@@ -196,6 +191,7 @@ $desktop: 1200px;
   display: flex;
   justify-content: center;
   align-items: center;
+  padding-top: 12px;
 }
 
 .demo-button,
@@ -211,10 +207,10 @@ $desktop: 1200px;
   margin: 0px 30px;
   font-size: 12px;
   font-weight: 400;
-  color: #000;
+  color: #F49867;
   cursor: pointer;
-  background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
+  // background: linear-gradient(89.97deg, #ae67fa 1.84%, #f49867 102.67%);
 
   // rgba(225,175,153,.401)
-  border: 1px solid rgba(255, 255, 255, 0.5);
+  border: 2px solid rgba(255, 255, 255, 0.782);
 }

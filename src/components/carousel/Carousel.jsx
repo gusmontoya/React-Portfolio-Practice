@@ -127,7 +127,7 @@ function Slide({ slide, offset }) {
         }}
       >
         <div className="slideContentInner">
-          <h2 className="slideTitle" color="linear-gradient(89.97deg, #AE67FA 1.84%, #F49867 102.67%);">{slide.title}</h2>
+          <h2 className="slideTitle" >{slide.title}</h2>
           <h3 className="slideSubtitle">{slide.subtitle}</h3>
           <p className="slideDescription">{slide.description}</p>
           <div className="button-links">
