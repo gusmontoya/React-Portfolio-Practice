@@ -9,8 +9,8 @@ const Skills = () => (
   <section className="gpt3__skills section__padding" id="skills">
     <div className="gpt3__skills-heading wrapper">
       <Skill title="Skills" />
-      <h1 className="gradient__text">My Toolbox by which magic happens</h1>
-      <p>It's not the amount of tools you have, but how well you use the ones you do have.</p>
+      <h1 className="gradient__text">My toolbox for webdev magic</h1>
+      {/* <p>It's not the amount of tools you have, but how well you use the ones you do have.</p> */}
         <div className="container-icons skills-tools">
           <div className="box">
               <SiJavascript className="icon__list" color="#F0DB4F"/>

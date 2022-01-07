@@ -131,10 +131,10 @@ function Slide({ slide, offset }) {
           <h3 className="slideSubtitle">{slide.subtitle}</h3>
           <p className="slideDescription">{slide.description}</p>
           <div className="button-links">
-            <a className="demo-button" href={slide.Demo} target="_blank" color="white">
+            <a className="demo-button" href={slide.Demo} target="_blank" rel="noreferrer" color="white">
               Demo
             </a>
-            <a className="repo-button" href={slide.Repo} target="_blank">
+            <a className="repo-button" href={slide.Repo} target="_blank" rel="noreferrer">
               Repo
             </a>
           </div>
