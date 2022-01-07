@@ -15,7 +15,7 @@ const Navbar = () => {
           <p><a href="#about">About</a></p>
           <p><a href="#skills">Skills</a></p>
           <p><a href="#projects">Projects</a></p>
-          <p><a href="#blog">Blog</a></p>
+          {/* <p><a href="#blog">Blog</a></p> */}
         </div>
       </div>
       <div className="gpt3__navbar-media">
@@ -35,7 +35,7 @@ const Navbar = () => {
             <p><a href="#about">About</a></p>
             <p><a href="#skills">Skills</a></p>
             <p><a href="#projects">Projects</a></p>
-            <p><a href="#blog">Blog</a></p>
+            {/* <p><a href="#blog">Blog</a></p> */}
           </div>
           <div className="gpt3__navbar-menu_container-links-sign">
               <a href="https://github.com/gusmontoya" target="_blank" rel="noreferrer" color="gradient__text"><DiGithubBadge size={50} /></a>
