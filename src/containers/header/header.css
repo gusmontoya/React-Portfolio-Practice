@@ -33,7 +33,7 @@
 }
 
 .gpt3__header-content__input {
-    width: 50%;
+    width: 100%;
     margin: 2rem 0 1rem;
 
     display: flex;
@@ -90,7 +90,6 @@
     color: #fff;
 }
 
-
 .gpt3__header-image {
     flex: 1;
     display: flex;
@@ -109,8 +108,22 @@
     }
 
     .gpt3__header-content {
-        margin: 0 0 3rem;
+        margin: 0 0 -8rem -2rem;
+
     }
+
+    .gpt3__header-content__input {
+
+    }
+    
+    .gpts__header-image {
+        display: none;
+    }
+
+    .gpt3__header-image img {
+        display: none;
+    }
+
 }
 
 @media screen and (max-width: 650px) {
