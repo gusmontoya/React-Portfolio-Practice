@@ -55,11 +55,12 @@
     color:#fff;
 }
 
-.toTop-btn {
+.gpt3__scroll-btn {
 color: #fff;
+padding-right:20px;
 }
 
-.toTop-btn p:hover{
+.scroll-btn:hover{
     color: black;
     
 }

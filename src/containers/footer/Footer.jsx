@@ -14,9 +14,9 @@ const Footer = () => (
     {/* <div className="gpt3__footer-btn">
     <a href="" target="_blank" rel="noreferrer" ><p>Get in touch</p></a>
     </div> */}
-    
+    <div className="gpt3__scroll-btn">
     <ScrollButton className="scroll-btn"/>
-
+    </div>
     <div className="gpt3__footer-copyright">
       <p>@2021 Gustavo Montoya. All rights reserved.</p>
     </div>

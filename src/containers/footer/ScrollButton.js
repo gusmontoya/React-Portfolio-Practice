@@ -29,7 +29,7 @@ window.addEventListener('scroll', toggleVisible);
 return (
 	<Button >
 	<GrLinkTop size={40} onClick={scrollToTop}
-	style={{display: visible ? 'inline' : 'none'}} />
+	style={{display: visible ? 'inline' : 'none'}} color="white" />
 	</Button>
 );
 }
