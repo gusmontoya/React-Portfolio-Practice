@@ -2,7 +2,7 @@ import React from 'react';
 import './footer.css';
 import ScrollButton  from "./ScrollButton.js";
 
-import ModalApp from '../../components/modal/ModalApp';
+// updated
 
 const Footer = () => (
   <div className="gpt3__footer section__padding">
