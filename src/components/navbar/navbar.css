@@ -33,7 +33,8 @@
 .gpt3__navbar-links_container p,
 .gpt3__navbar-media p,
 .gpt3__navbar-menu_container p {
-    color: #296a88;
+    /* color: #296a88; */
+    color: #fff;
     font-family: var(--font-family);
     font-weight: 500;
     font-size: 18px;
@@ -176,7 +177,7 @@
     transition: all .5s;
   }
   .gpt3__navbar-links .gpt3__navbar-links_container p a:hover {
-    color: #FF4820;
+    color: black;
   }
   
   
