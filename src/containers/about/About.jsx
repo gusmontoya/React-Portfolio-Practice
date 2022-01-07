@@ -14,15 +14,15 @@ const About = () => (
       <p><span class="bold">I’m a non-traditional tech professional</span>. I am passionate with the evolving tools I use to complete projects that are current to todays demands and technology uses. 
           I'm a self-motivated learner with strong organisation, time management & communication skills. I'm able to work independently & collaboratively in a team with a meticulous attention to detail.
       </p>
-      <p>
+      {/* <p>
         I'm flexible in using various tools such as frameworks: bootstrap, nextJS, etc to make front ends. I am developing my skills in expanding my back end knowledge NodeJS, MongoDB, Ruby on Rails etc. 
-      </p>
+      </p> */}
       {/* <p>
           Before tech I gave 8 years to healthcare and home health. Adapting to Covids disruption I reskilled myself for a new path and fell in love with full stack development.
           As a follower of Robert Cecil Martin's <a className="anchorLink" href="https://youtu.be/7EmboKQH8lM" target="_blank" rel="noreferrer" aria-label="open link to Clean Code - Uncle Bob."> principles of clean code</a>,
           I agree that reducing complexity as much as possible is important in code.</p>*/}
           {/* updated */}
-      <p><span class="bold">I am a</span> 
+      <p><span class="bold">I am a </span> 
           <a className="anchorLink" href="https://www.nucamp.co" target="_blank" rel="noreferrer" aria-label="open link to Nucamp website."> Nucamp Coding Bootcamp</a> <span class="bold">graduate</span>.
       </p> 
       <p>
