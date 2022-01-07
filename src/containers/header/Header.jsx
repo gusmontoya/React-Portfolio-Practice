@@ -7,7 +7,7 @@ const Header = () => (
 
 <div className="gpt3__header section__padding" id="home">
     <div className="gpt3__header-content">
-      <h1 className="gradient__text">Greetings, I'm Gus! I'm a healthcare worker turned <span>Full Stack Developer!</span></h1>
+      <h1 className=" title-wht">Greetings, I'm Gus! I'm a healthcare worker turned <span>Full Stack Developer!</span></h1>
       <p style={{color: "#104680"}}>Welcome to my portfolio. Please contact me for job openings.</p>
       <div className="gpt3__header-content__input">
         <ModalApp />
