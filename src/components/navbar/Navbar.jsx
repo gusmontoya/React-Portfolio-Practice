@@ -21,7 +21,7 @@ const Navbar = () => {
       <div className="gpt3__navbar-media">
           <a href="https://github.com/gusmontoya" target="_blank" rel="noreferrer" color="gradient__text"><DiGithubBadge size={50} /></a>
           <a href="https://www.linkedin.com/in/gusmontoya/" target="_blank" rel="noreferrer" ><RiLinkedinBoxLine size={46} /></a>
-          <a href="https://drive.google.com/file/d/1klOh517L-hnPQTBHmRRdEyD7Erlr5htw/preview" target="_blank" rel="noreferrer" ><IoDocumentTextSharp size={35} /></a>
+          <a href="https://drive.google.com/file/d/1xOVm307LnpQG7FAjIG5pRLY9n7GTpdPl/view" target="_blank" rel="noreferrer" ><IoDocumentTextSharp size={35} /></a>
           
       </div>
       <div className="gpt3__navbar-menu">
