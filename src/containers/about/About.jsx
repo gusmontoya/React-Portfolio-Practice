@@ -15,7 +15,7 @@ const About = () => (
           I'm a self-motivated learner with strong organisation, time management & communication skills. I'm able to work independently & collaboratively in a team with a meticulous attention to detail.
       </p>
       <p>
-        I'm flexible in using various tools such as frameworks: bootstrap, nextJS, etc to make front ends and am developing my skills in expanding my back end knowledge NodeJS, MongoDB, Ruby on Rails etc. 
+        I'm flexible in using various tools such as frameworks: bootstrap, nextJS, etc to make front ends. I am developing my skills in expanding my back end knowledge NodeJS, MongoDB, Ruby on Rails etc. 
       </p>
       {/* <p>
           Before tech I gave 8 years to healthcare and home health. Adapting to Covids disruption I reskilled myself for a new path and fell in love with full stack development.
