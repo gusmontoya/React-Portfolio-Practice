@@ -13,71 +13,71 @@ const Skills = () => (
       {/* <p>It's not the amount of tools you have, but how well you use the ones you do have.</p> */}
         <div className="container-icons skills-tools">
           <div className="box">
-              <SiJavascript className="icon__list" color="#F0DB4F"/>
+              <SiJavascript className="icon__list" color="#fff"/>
               <p>JavaScript</p>
           </div>
           <div className="box">
-              <FaReact className="icon__list" color="#61DBFB"/>
+              <FaReact className="icon__list" color="#fff"/>
               <p>React</p>
           </div>
           <div className="box">
-              <SiRedux className="icon__list" color="#766abc "/>
+              <SiRedux className="icon__list" color="#fff "/>
               <p>Redux</p>
           </div>
           <div className="box">
-              <FaHtml5 className="icon__list" color="orange"/>
+              <FaHtml5 className="icon__list" color="#fff"/>
               <p>HTML5</p>
           </div>
           <div className="box">
-              <FaCss3 className="icon__list" color="#264de4 "/>
+              <FaCss3 className="icon__list" color="#fff "/>
               <p>CSS3</p>
           </div>
           <div className="box">
-              <DiGit className="icon__list" color="red"/>
+              <DiGit className="icon__list lg" color="#fff"/>
               <p>Git</p>
           </div>
           <div className="box">
-              <DiGithubBadge className="icon__list" color="black"/>
+              <DiGithubBadge className="icon__list lg" color="#fff"/>
               <p>Github</p>
           </div>
           <div className="box">
-              <SiVisualstudiocode className="icon__list" color="#0078d7"/>
+              <SiVisualstudiocode className="icon__list" color="#fff"/>
               <p>VSCode</p>
           </div>
           <div className="box">
-              <SiTypescript className="icon__list" color="navy"/>
+              <SiTypescript className="icon__list" color="#fff"/>
               <p>Typescript</p>
           </div>
           <div className="box">
-              <SiFigma className="icon__list" color="black"/>
+              <SiFigma className="icon__list" color="#fff"/>
               <p>Figma</p>
           </div>
           <div className="box">
-              <SiAffinitydesigner className="icon__list" color="blue"/>
+              <SiAffinitydesigner className="icon__list" color="#fff"/>
               <p>Affinity Designer</p>
           </div>
           <div className="box">
-              <SiAffinityphoto className="icon__list" color="magenta"/>
+              <SiAffinityphoto className="icon__list" color="#fff"/>
               <p>Affinity Photo</p>
           </div>
           <div className="box">
-              <SiAndroidstudio className="icon__list" color="#78c257"/>
+              <SiAndroidstudio className="icon__list" color="#fff"/>
               <p>Android Studio</p>
           </div>
           <div className="box">
-              <SiPostman className="icon__list" color="orange"/>
+              <SiPostman className="icon__list" color="#fff"/>
               <p>Postman</p>
           </div>
           <div className="box">
-              <DiNodejs className="icon__list" color="olive"/>
+              <DiNodejs className="icon__list lg" color="#fff"/>
               <p>Node JS</p>
           </div>
           <div className="box">
-              <SiExpress className="icon__list" color="black"/>
+              <SiExpress className="icon__list" color="#fff"/>
               <p>Express</p>
           </div>
           <div className="box">
-              <SiMongodb className="icon__list" color="green"/>
+              <SiMongodb className="icon__list" color="#fff"/>
               <p>Mongodb</p>
           </div>
         </div>

@@ -8,7 +8,7 @@ const Footer = () => (
   <div className="gpt3__footer section__padding">
 
     <div className="gpt3__footer-heading">
-      <h1 className="gradient__text">“Always be open to ideas, conversation, and topics. Learning to code is learning to create and innovate.” - Danny Thompson</h1>
+      <h1 className="gradient__text">“Always be open to ideas, conversation, and topics. Learning to code is learning to create and innovate.” - <span className="author">Danny Thompson</span></h1>
     </div>
 
     {/* <div className="gpt3__footer-btn">

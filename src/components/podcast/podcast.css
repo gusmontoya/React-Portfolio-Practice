@@ -6,23 +6,23 @@
     flex-direction: row;
 
     padding: 2rem;
-    margin: 4rem;
+    margin: 6rem;
     border-radius: 1rem;
     background: var(--gradient-bar)
 }
 
 .gpt3__cta-content {
     display: flex;
-    gap: 5;
+    gap: 2;
     flex-direction: column;
-    margin-right: 40px;
+    margin-right: 20px;
     text-align: left;
     color: #fff;
 }
 
 .gpt3__cta-content p {
     font-family: var(--font-family);
-    font-size: 12px;
+    font-size: 15px;
     line-height: 30px;
     font-weight: 500;
 }
@@ -38,8 +38,8 @@
     display: flex;
     justify-content: center;
     align-items: center;
-
-    margin-left: 2rem;
+    margin-right: 25px;
+    /* margin-left: 1rem; */
 }
 
 .gpt3__cta-btn button {

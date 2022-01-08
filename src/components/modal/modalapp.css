@@ -18,7 +18,7 @@
     cursor: pointer;
     
     color: transparent;
-    padding-left: 30px;
+    padding-left: 2px;
   }
 
 
@@ -36,8 +36,8 @@
   .clickMe:hover {
     background-color: black;
     transform: scale(1.5) perspective(1px);
-  -webkit-transform: translate(0px, 5px);
-  box-shadow: 0px 1px 0px 0px;
+    -webkit-transform: translate(0px, 5px);
+    box-shadow: 0px 1px 0px 0px;
   }
 
 .gpt3__header-content__input .clickMe {

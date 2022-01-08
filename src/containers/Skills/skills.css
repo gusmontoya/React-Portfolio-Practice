@@ -34,33 +34,34 @@
     flex-direction: row;
     flex-wrap: wrap;
 }
-
+/* 
 .box-icon {
 width: 12.5%;
 height: 142 px;
 margin-bottom: 10px;
 text-align: center;
-}
+} */
 
 .icon__list {
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-weight: 400;
-    line-height: 1;
-    /* font-family */
+    line-height: 1;   
+    margin: 0 auto;   
+}
+
+.lg {
+    font-size: 3.3rem;
 }
 
 .box {
     border-radius: 5px;
-    padding: 20px;
-    font-size: 150%;
-
+    padding: 20px; 
 }
 
 .box p {
     margin-bottom: 50px;
     line-height: 1.55;
     font-size: 1rem;
-
 }
 
 @media screen and (max-width: 990px) {

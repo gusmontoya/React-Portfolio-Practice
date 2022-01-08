@@ -1,4 +1,5 @@
 
+$cell: 375px;
 $tablet: 768px;
 $laptop: 992px;
 $desktop: 1200px;
@@ -25,6 +26,7 @@ $desktop: 1200px;
   border-radius: 15px;
   margin: 0 auto;
   background-color: black;
+  overflow: hidden;
   }
 
 
@@ -122,17 +124,24 @@ $desktop: 1200px;
   overflow: hidden;
   width: 100%;
   margin: 0 auto;
-
+  
+  // > 370
+  @media (min-width: $cell) {
+  width: 370px;
+  }
   // > 768
   @media (min-width: $tablet) {
     width: 750px;
+  }
   // > 992
   @media (min-width: $laptop) {
-    width: 970px;
+    // width: 970px;
+    width: 750px;
   }
   // > 1200
   @media (min-width: $desktop) {
     width: 1170px;
+    // width: 750px;
   }
 
   *,
@@ -141,7 +150,7 @@ $desktop: 1200px;
     position: relative;
   }
 }
-}
+
 
 .slides {
   display: grid;
