@@ -10,7 +10,7 @@ const About = () => (
     </div>
     <div className="gpt3__possibility-content">
       <Skill title="About" />
-      <h1 className="gradient__text">Who is Gus?</h1>
+      <h2 className="gradient__text">Who is Gus?</h2>
       <p><span class="bold">I’m a non-traditional tech professional</span>. I am passionate with the evolving tools I use to complete projects that are current to todays demands and technology uses. 
           I'm a self-motivated learner with strong organisation, time management & communication skills. I'm able to work independently & collaboratively in a team with a meticulous attention to detail.
       </p>

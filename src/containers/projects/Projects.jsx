@@ -9,7 +9,7 @@ const Projects = () => (
             <Skill title="Projects" />
         </div>
         <div className="gpt3__projects-heading">
-            <h1 className="gradient__text"> Here's a selection of stuff I've built.</h1>
+            <h2 className="gradient__text"> Here's a selection of stuff I've built.</h2>
             <a href="https://github.com/gusmontoya" target="_blank" rel="noreferrer" >
                 <p>Explore my Github Repo</p>
             </a>

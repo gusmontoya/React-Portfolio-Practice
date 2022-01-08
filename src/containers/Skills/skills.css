@@ -10,11 +10,12 @@
     padding: 0 8%;
 }
 
-.gpt3__skills-heading h1 {
-    font-size: 34px;
+.gpt3__skills-heading h2 {
+    font-size: 30px;
     line-height: 65px;
-    font-weight: 800;
+    font-weight: 500;
     font-family: var(--font-family);
+    margin-left: 18px;
 }
 
 .gpt3__skills-heading p {
