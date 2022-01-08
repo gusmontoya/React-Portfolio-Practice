@@ -122,25 +122,29 @@ $desktop: 1200px;
   align-items: center;
   justify-content: center;
   overflow: hidden;
-  width: 100%;
+  width: 60%;
   margin: 0 auto;
   
   // > 370
   @media (min-width: $cell) {
   width: 370px;
+
+  margin: 0 auto;
   }
   // > 768
   @media (min-width: $tablet) {
     width: 750px;
+    margin: 0 auto;
   }
   // > 992
   @media (min-width: $laptop) {
-    // width: 970px;
-    width: 750px;
+    width: 970px;
+    margin: 0 auto;
   }
   // > 1200
   @media (min-width: $desktop) {
     width: 1170px;
+    margin: 0 auto;
     // width: 750px;
   }
 
