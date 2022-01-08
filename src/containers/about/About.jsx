@@ -23,7 +23,7 @@ const About = () => (
           I agree that reducing complexity as much as possible is important in code.</p>*/}
           {/* updated */}
       <p><span class="bold">I hold a Full Stack Developer Certification from</span> 
-          <a className="anchorLink" href="https://www.nucamp.co" target="_blank" rel="noreferrer" aria-label="open link to Nucamp website."> Nucamp Coding Bootcamp</a> <span class="bold">where I became proficient in BootStrap 5, React, NodeJS, Expres, and MongoDB. </span>.
+          <a className="anchorLink" href="https://www.nucamp.co" target="_blank" rel="noreferrer" aria-label="open link to Nucamp website."> Nucamp Coding Bootcamp</a> <span class="bold">where I became proficient in BootStrap 5, React, React Native, NodeJS, Expres, and MongoDB. </span>.
       </p> 
       {/* <p>
           I'm jubilant as a busy body learning and solving elusive problems on 
