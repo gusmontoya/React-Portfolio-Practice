@@ -1,6 +1,6 @@
 import React from 'react';
 import Skill from '../../components/skill/Skill';
-import Carousel from '../../components/carousel/Carousel';
+import Carousel2demo from '../../components/carousel/Carousel2demo';
 import './projects.css';
 
 const Projects = () => (
@@ -15,7 +15,7 @@ const Projects = () => (
             </a>
         </div>
         <div className="project-cards">
-            <Carousel />
+            <Carousel2demo />
         </div>
     </div>
 );
