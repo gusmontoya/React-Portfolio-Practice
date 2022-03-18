@@ -7,7 +7,7 @@ It is made with React.
 The site is deployed on Netlify. <a href="https://gus-full-stack-dev.netlify.app/" target="_blank" >VIEW DEMO HERE!</a>
 
 <p align="center">
-  <img src="https://github.com/gusmontoya/React-Portfolio-Practice/blob/main/src/assets/SiteProfilePic.jpg?raw=true" alt="TODO-profile" width="40%">
+  <img src="https://github.com/gusmontoya/React-Portfolio-Practice/blob/main/src/assets/SiteProfilePic.jpg?raw=true" alt="TODO-profile" width="60%">
 &nbsp; &nbsp; &nbsp; &nbsp;
   <video src='your URL here' width=180/>
   &nbsp; &nbsp; &nbsp; &nbsp;
